@@ -1,0 +1,1 @@
+This program uses selection sort to sort a pre-defined list in descending order. The list is composed of a typestruc (avg_temp) with 2 values: city and temperature.

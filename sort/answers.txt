@@ -1,0 +1,38 @@
+sort1 uses: bubble sort
+sorted5000: 0m0.105s
+50k
+sorted50000: .598s
+random50000: 8.457s
+reversed50000: 6.451s
+
+How do you know?: For largest n, this algorithm demonstrates a wide spread between processing times between worst- and best-case scenarios.
+This indicates an iterative algorithm with exit conditions for already-sorted sets.
+
+sort2 uses: merge sort
+    DATA
+    5k
+    sorted5000: .044s
+    random5000: .020s
+    reversed5000: .045s
+
+    10k
+    sorted10000: .111s
+    random10000: .063s
+    reversed10000: .044s
+
+    50k
+    sorted50000: .798s
+    random50000: .991s
+    reversed50000: 1.431s
+
+How do you know?: This algorithm demonstrates little difference between best- and worst-case scenarios for all n.
+    Additionally, it demonstrates the lowest increase in sorting time for largest data sets, indicating a logarithmic function.
+
+sort3 uses: selection sort
+    DATA:
+    sorted50000: 3.706s
+    random50000: 3.731s
+    reversed50000: 4.612s
+How do you know?:
+For the largest n, the algorithm takes roughly the same time to sort in both worst- and best-case scenarios.
+This indicates an algorithm with no exit condition.
